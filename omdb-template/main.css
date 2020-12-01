@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(0, 0, 75, 0.801);
+    color: rgba(233, 227, 227, 0.966); 
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.row {
+    margin-top: 150px;
+}
+
+li {
+    list-style: none;
+}
+
+.wopp {
+    color: wheat;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.select {
+    color: wheat;
+    display: flex;
+    justify-content: flex-end;
+    border: 1rem;
+}
+
+.list-group-item {
+    background-color: rgba(32, 18, 112, 0.815);
+    color: wheat;
+    text-align: center;
+}
+
+.list-group-genre {
+    color: wheat;
+    
+}
+
+li img {
+    border: 2px solid black;
+    display: flex;
+    justify-content: flex-start;
+}

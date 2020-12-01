@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<title>API project</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+</head>
+<body>
+      <div class="row">
+        <div>
+		  <h2>Movies & series</h2>
+		    <div class="wopp">
+			   <input id="title-input" class="search-movie" placeholder="Search your movie/series..."/>
+               <input id="year-input" class="search-movie" placeholder="Filter by realese year..."/>
+
+				<div class="select">
+					<button id="year-button"name="filter" class="select-btn">Search</button>
+		       </div> 
+		</div>
+
+		  <h2>Results</h2>
+		  <ul id="movieList" class="list-group">
+			  <li id="all-movies" class="list-item"></li>
+		  </ul>
+
+	    </div>
+	  </div>
+
+
+	<script src='main.js'></script>
+</body>
+</html>
